@@ -1,4 +1,7 @@
 //Franklin Yin
+
+
+//Imports
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -21,6 +24,7 @@ import javafx.scene.text.*;
 public class Shooter extends Application implements EventHandler<InputEvent>
 {
 	AnimateObjects animate=new AnimateObjects();
+	//Check the player and enemy classes for information on methods each class has. tl;dr they are getter and setter methods
 	Player player=new Player(new Image("player.png"));
 	ArrayList <Enemy> list=new ArrayList<>();
 	int enemyMove=0;
